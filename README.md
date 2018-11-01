@@ -15,13 +15,13 @@ follow the official [docs](https://golang.org/doc/install) for installation and 
 ### Project
 1. After installing Golang, a GOPATH environment variable should be set.
 In the directory "[GOPATH]/src/" unzip these files.
-2. To run the project locally, run `go run main.go`
-3. Install the project dependencies  
-`// These libraries are for routing and handling requests`
-`$ go get "github.com/gorilla/mux"`
-`$ go get "github.com/gorilla/context"`
-`$ go get "github.com/gorilla/handlers"`
-`$ go get "github.com/gorilla/handlers"`
+2. Install the project dependencies  
+`// These libraries are for routing and handling requests` <br>
+`$ go get "github.com/gorilla/mux"`<br>
+`$ go get "github.com/gorilla/context"`<br>
+`$ go get "github.com/gorilla/handlers"`<br>
+`$ go get "github.com/gorilla/handlers"`<br>
+3. To run the project locally, run `go run main.go`
 4. The API is ready to be opened now! Go to http://localhost:8080 in your browser
 (the port can be edited in the main.go file)
 
