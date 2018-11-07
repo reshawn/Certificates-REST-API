@@ -1,7 +1,7 @@
 
 
 # Certificates REST API
-A couple simple RESTful endpoints designed as if they were to be consumed by the Verisart front-end app.
+A few simple RESTful endpoints designed as if they were to be consumed by the Verisart front-end app.
 
 - Perform basic CRUD (create, read, update, delete) operations on JSON certificate objects stored in the back-end. (static data for the purposes of this task)
 - View certificates owned by a user
@@ -20,7 +20,6 @@ In the directory "[GOPATH]/src/" unzip these files.
 `$ go get "github.com/gorilla/mux"`<br>
 `$ go get "github.com/gorilla/context"`<br>
 `$ go get "github.com/gorilla/handlers"`<br>
-`$ go get "github.com/gorilla/handlers"`<br>
 3. To run the project locally, run `go run main.go`
 4. The API is ready to be opened now! Go to http://localhost:8080 in your browser
 (the port can be edited in the main.go file)
@@ -31,6 +30,7 @@ To run the [published](https://hub.docker.com/r/reshawn/certificates/) docker co
 
 ### Running Unit Tests
 Change directory to the certificate_logic folder and run `go test`
+
 
 **Note**: A JSON formatter extension or API development environment like [Postman](https://www.getpostman.com/apps) will be useful for trying out the endpoint consumption
 
